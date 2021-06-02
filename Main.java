@@ -7,6 +7,10 @@ public class Main {
         FirstOne firstOne = new FirstOne();
 
         firstOne.Number = 6;//Error
+        
+        int tmp = firstOne.Number;
+
+        System.out.println(tmp);
 
     }
 }
